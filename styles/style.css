@@ -4,7 +4,7 @@
   --selected: #078d19;
   --text-color: #777;
   --white: #fff;
-  --dark-text: #df11d4;
+  --dark-text: #030303;
 }
 
 *,
@@ -75,7 +75,7 @@ img{
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 .showcase-details li{
   display: flex;
@@ -85,26 +85,27 @@ img{
   padding:5px;
 }
 .showcase-details li small{
-  margin-left:4px ;
+  margin-right:6px ;
+
 }
 .screen-details{
-  width:21rem;
+  width:20rem;
   margin-top: 1.5rem;
   perspective:1000px ;
 }
 
 .screen{
-  margin-left:6rem ;
+  
   background-color:white ;
   height:9rem;
-  width:100%;
+  width:90%;
   margin:1.2rem;
   transform:rotateX(-45deg);
   box-shadow:0 3px 10px rgba(255,255,255,0);
 }
 .row{
   display: flex;
-  margin-left: 2rem;
+  margin-left: 0rem;
   
 }
 .text{
@@ -115,6 +116,6 @@ img{
 }
 .description{
   margin-top: 1rem;
-  margin-left:2rem ;
+   
 }
 
